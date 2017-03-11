@@ -10,24 +10,8 @@ import org.neo4j.nlp.impl.manager.NodeManager
 
 import scala.collection.{JavaConversions, mutable}
 import scala.util.matching.Regex
-/**
- * Copyright (C) 2014 Kenny Bastani
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License. You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under the License
- * is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
- * or implied. See the License for the specific language governing permissions and limitations under
- * the License.
- */
-/**
- * The [[DecisionTree]] provides a mechanism for planning the optimal shortest path from a source vertex to a destination vertex
- * @param root is the id of the vertex that is at the base of this [[DecisionTree]]
- * @tparam VD is the vertex id type for the decision tree
- */
+ vertex id type for the decision tree
+
 class DecisionTree[VD](val root : VD, var graph : mutable.HashMap[VD, DecisionTree[VD]], db: GraphDatabaseService, graphManager: GraphManager) extends Serializable {
 
   var matchCount = 0
