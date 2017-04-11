@@ -9,6 +9,7 @@ An important part of our information-gathering behavior has always been to ﬁnd
 This survey covers techniques and approaches that promise to directly enable opinion-oriented informationseeking systems. Our focus is on methods that seek to address the new challenges raised by sentimentaware applications, as compared to those that are already present in more traditional fact-based analysis. We include material on summarization of evaluative text and on broader issues regarding privacy, manipulation, and economic impact that the development of opinion-oriented information-access services gives rise to. To facilitate future work, a discussion of available resources, benchmark datasets, and evaluation campaigns is also provided.
 
 ![spark](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAV0AAAAJDQ0MDdlNjNhLTM0YzAtNGJjNy1hZTI1LWY0NDQ5ZjRmY2YwOA.png)
+![hadoop](http://spark.apache.org/images/hadoop.jpg)
 
 ## Support
 
