@@ -1,6 +1,6 @@
 # OPINION MINING USING TEXT DATA 
 
-By [Giorgos ](https://gr.linkedin.com/in/george-zafaras-ab71a451) & [Stavros ]., 2016        
+By [Giorgos ](https://gr.linkedin.com/in/george-zafaras-ab71a451) & Stavros., 2016        
 
 ## Information
 
